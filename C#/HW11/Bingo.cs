@@ -64,6 +64,11 @@
             }
         }
 
+        public int makeMiddleZero()
+        {
+            return BingoCard[2, 2] = 0;
+        }
+
         //Just goes through the 2-D array board and prints it
         public void printBoard()
         {
